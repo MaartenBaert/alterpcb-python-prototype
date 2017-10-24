@@ -1,0 +1,23 @@
+[
+	{"name": "copper1-top"   , "type": "gerber", "ext": ".gtl"         , "color": [1.0, 0.0, 0.0]},
+	{"name": "copper1-bot"   , "type": "gerber", "ext": ".gbl"         , "color": [0.0, 0.0, 1.0]},
+	{"name": "copper2-top"   , "type": "gerber", "ext": ".gl2"         , "color": [1.0, 0.5, 0.0]},
+	{"name": "copper2-bot"   , "type": "gerber", "ext": ".gl3"         , "color": [0.0, 0.5, 1.0]},
+	{"name": "mask-top"      , "type": "gerber", "ext": ".gts"         , "color": [0.0, 1.0, 0.0]},
+	{"name": "mask-bot"      , "type": "gerber", "ext": ".gbs"         , "color": [0.0, 0.6, 0.0]},
+	{"name": "paste-top"     , "type": "gerber", "ext": ".gtp"         , "color": [1.0, 0.5, 0.5]},
+	{"name": "paste-bot"     , "type": "gerber", "ext": ".gbp"         , "color": [0.5, 0.5, 1.0]},
+	{"name": "silk-top"      , "type": "gerber", "ext": ".gto"         , "color": [1.0, 1.0, 0.5]},
+	{"name": "silk-bot"      , "type": "gerber", "ext": ".gbo"         , "color": [0.6, 0.6, 0.3]},
+	{"name": "board-outline" , "type": "gerber", "ext": ".gko"         , "color": [0.2, 0.2, 0.2]},
+	{"name": "drill-plated"  , "type": "drill" , "ext": "_plated.txt"  , "color": [0.5, 0.5, 0.5]},
+	{"name": "drill-unplated", "type": "drill" , "ext": "_unplated.txt", "color": [0.8, 0.8, 0.8]},
+	{"name": "courtyard-top" , "type": null    , "ext": null           , "color": [0.0, 1.0, 0.5]},
+	{"name": "courtyard-bot" , "type": null    , "ext": null           , "color": [0.0, 0.6, 0.3]},
+	{"name": "mech1-top"     , "type": null    , "ext": null           , "color": [0.5, 0.0, 1.0]},
+	{"name": "mech1-bot"     , "type": null    , "ext": null           , "color": [0.3, 0.0, 0.6]},
+	{"name": "mech2-top"     , "type": null    , "ext": null           , "color": [1.0, 0.0, 1.0]},
+	{"name": "mech2-bot"     , "type": null    , "ext": null           , "color": [0.6, 0.0, 0.6]},
+	{"name": "mech3-top"     , "type": null    , "ext": null           , "color": [1.0, 0.0, 0.5]},
+	{"name": "mech3-bot"     , "type": null    , "ext": null           , "color": [0.6, 0.0, 0.3]}
+]

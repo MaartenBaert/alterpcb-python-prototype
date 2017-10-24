@@ -1,0 +1,3140 @@
+[
+ {
+  "name": "filter_lowpass_0805",
+  "shapes": [
+   {
+    "type": "rectangle",
+    "layer": "board-outline",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 36.0,
+    "height": 26.0,
+    "angle": 0.0,
+    "outline": 0.1,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 35.0,
+    "height": 5.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-bot",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 35.0,
+    "height": 25.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "text",
+    "x": -17.0,
+    "y": 0.0,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "MB LPF v4",
+    "font": "Salsa",
+    "size": 3.0,
+    "halign": "left",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 7.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "Low-Pass Filter",
+    "font": "Salsa",
+    "size": 3.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 0.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "Butterworth (9-pole)",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": -7.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "180 dB/dec - 54 dB/oct",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "filter_lowpass_half",
+    "x": 0.0,
+    "y": 7.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false
+   },
+   {
+    "type": "filter_lowpass_half",
+    "x": 0.0,
+    "y": -7.0,
+    "angle": 180.0,
+    "flip": false,
+    "mirror": true
+   }
+  ],
+  "view_x": 0.28238178034514055,
+  "view_y": 2.799653949522175,
+  "view_scale": 25.11886431509587,
+  "grid_step_x": 0.1,
+  "grid_step_y": 0.1
+ },
+ {
+  "name": "biastee",
+  "shapes": [
+   {
+    "type": "rectangle",
+    "layer": "board-outline",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 24.0,
+    "height": 38.0,
+    "angle": 0.0,
+    "outline": 0.1,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "connector_generic_sma_edge",
+    "x": -12.0,
+    "y": 0.0,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": false,
+    "w1": 2.0,
+    "h1": 4.0,
+    "w2": 2.0,
+    "h2": 4.0,
+    "w3": 1.35,
+    "h3": 2.75,
+    "s1": 3.0,
+    "hole": false,
+    "hole_w": 9.0,
+    "hole_h": 5.0,
+    "edge_space": 0.5
+   },
+   {
+    "type": "connector_generic_pin_header_vertical",
+    "x": 10.0,
+    "y": 0.0,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": false,
+    "rows": 1,
+    "cols": 3
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": -7.5,
+    "y1": 0.0,
+    "x2": 10.0,
+    "y2": 0.0,
+    "width": 2.0,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "biastee_half",
+    "x": 0.0,
+    "y": 0.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false
+   },
+   {
+    "type": "biastee_half",
+    "x": 0.0,
+    "y": 0.0,
+    "angle": 180.0,
+    "flip": false,
+    "mirror": true
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-bot",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 23.0,
+    "height": 37.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": -1,
+    "pad": false
+   },
+   {
+    "type": "circle",
+    "layer": "copper1-bot",
+    "x": 10.0,
+    "y": 0.0,
+    "radius": 1.3,
+    "outline": 0.0,
+    "hole": true,
+    "order": -1,
+    "pad": false
+   },
+   {
+    "type": "text",
+    "x": -7.0,
+    "y": 17.5,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "left",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 6.999999999999998,
+    "y": 17.499999999999996,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "DC+RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "right",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": -7.0,
+    "y": -17.5,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "left",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 6.999999999999998,
+    "y": -17.500000000000004,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "DC+RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "right",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 7.499999999999998,
+    "y": -3.552713678800501e-15,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "silk-top",
+    "text": "DC",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "right",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 14.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "Bias Tee",
+    "font": "Salsa",
+    "size": 3.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 7.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "100kHz - 10GHz",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 3.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "2.4 Ohm",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "25V / 300 mA",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": -14.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "MB BT v1",
+    "font": "Salsa",
+    "size": 3.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 4.5,
+    "y1": -6.0,
+    "x2": 2.1999999999999993,
+    "y2": -6.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 2.200000000000003,
+    "y1": -6.700000000000001,
+    "x2": 2.200000000000003,
+    "y2": -5.300000000000001,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 1.8000000000000007,
+    "y1": -6.700000000000001,
+    "x2": 1.8000000000000007,
+    "y2": -5.300000000000001,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 1.8000000000000007,
+    "y1": -6.0,
+    "x2": -2.5,
+    "y2": -6.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 0.0,
+    "y1": -6.0,
+    "x2": 0.0,
+    "y2": -5.199999999999999,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "arc",
+    "layer": "silk-bot",
+    "x": 0.0,
+    "y": -4.800000000000001,
+    "radius": 0.4,
+    "angle1": 90.0,
+    "angle2": 270.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "arc",
+    "layer": "silk-bot",
+    "x": 0.0,
+    "y": -4.0,
+    "radius": 0.4,
+    "angle1": 90.0,
+    "angle2": 270.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "arc",
+    "layer": "silk-bot",
+    "x": 0.0,
+    "y": -3.1999999999999993,
+    "radius": 0.4,
+    "angle1": 90.0,
+    "angle2": 270.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "silk-bot",
+    "x1": 0.0,
+    "y1": -2.8000000000000007,
+    "x2": 0.0,
+    "y2": -2.0,
+    "width": 0.2,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": -3.0,
+    "y": -6.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "DC+RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "left",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 0.0,
+    "y": -1.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "DC",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 5.0,
+    "y": -6.0,
+    "angle": 0.0,
+    "mirror": true,
+    "layer": "silk-bot",
+    "text": "RF",
+    "font": "Salsa",
+    "size": 2.0,
+    "halign": "right",
+    "valign": "center",
+    "spacing": 0.05,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   }
+  ],
+  "view_x": 2.610563550841318,
+  "view_y": 0.28190220550077294,
+  "view_scale": 25.118864315096324,
+  "grid_step_x": 0.1,
+  "grid_step_y": 0.1
+ },
+ {
+  "name": "biastee_half",
+  "shapes": [
+   {
+    "type": "connector_generic_sma_edge",
+    "x": -12.0,
+    "y": 14.0,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": false,
+    "w1": 2.0,
+    "h1": 4.0,
+    "w2": 2.0,
+    "h2": 4.0,
+    "w3": 1.35,
+    "h3": 2.75,
+    "s1": 3.0,
+    "hole": false,
+    "hole_w": 9.0,
+    "hole_h": 5.0,
+    "edge_space": 0.5
+   },
+   {
+    "type": "connector_generic_sma_edge",
+    "x": 12.0,
+    "y": 14.0,
+    "angle": 270.0,
+    "flip": false,
+    "mirror": false,
+    "w1": 2.0,
+    "h1": 4.0,
+    "w2": 2.0,
+    "h2": 4.0,
+    "w3": 1.35,
+    "h3": 2.75,
+    "s1": 3.0,
+    "hole": false,
+    "hole_w": 9.0,
+    "hole_h": 5.0,
+    "edge_space": 0.5
+   },
+   {
+    "type": "via",
+    "x": 1.6,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 0.0,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "chip_generic_0805",
+    "x": -8.881784197001252e-16,
+    "y": 14.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -5.8999999999999995,
+    "y": 14.0,
+    "width": 11.200000000000001,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 3.5,
+    "y": 12.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "polygon",
+    "layer": "copper1-top",
+    "x": [
+     -7.899999999999997,
+     -7.899999999999997,
+     7.9,
+     7.9,
+     7.5,
+     -7.499999999999999
+    ],
+    "y": [
+     16.0,
+     18.0,
+     18.0,
+     16.0,
+     15.600000000000001,
+     15.600000000000001
+    ],
+    "closed": true,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "polygon",
+    "layer": "copper1-top",
+    "x": [
+     2.0,
+     -7.899999999999999,
+     -7.899999999999999,
+     -7.5,
+     2.0
+    ],
+    "y": [
+     10.0,
+     10.0,
+     12.0,
+     12.400000000000002,
+     12.4
+    ],
+    "closed": true,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 4.5,
+    "y": 12.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 3.5,
+    "y": 10.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 4.5,
+    "y": 10.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_parametric",
+    "x": 5.200000000000001,
+    "y": 5.400000000000002,
+    "angle": 270.0,
+    "flip": false,
+    "mirror": true,
+    "package_w": 3.2,
+    "package_h": 2.5,
+    "courtyard_w": 4.8,
+    "courtyard_h": 3.4,
+    "pad_w": 1.2,
+    "pad_h": 2.8,
+    "pad_offset": 1.5,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 3.5,
+    "y": 8.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0402",
+    "x": 4.5,
+    "y": 8.8,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "text",
+    "x": 4.5,
+    "y": 12.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "22nH",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 4.5,
+    "y": 10.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "47nH",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 4.5,
+    "y": 8.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "220nH",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 5.200000000000001,
+    "y": 5.400000000000002,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "3.3uH",
+    "font": "DejaVuSans",
+    "size": 0.8,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "inductor_murata_lqh66s_2525",
+    "x": -1.700000000000002,
+    "y": 4.1999999999999975,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false
+   },
+   {
+    "type": "text",
+    "x": -1.700000000000002,
+    "y": 4.1999999999999975,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "220uH",
+    "font": "DejaVuSans",
+    "size": 1.5,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 16,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": 2.700000000000003,
+    "y": 3.0,
+    "angle": 270.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.1999999999999993,
+    "y1": 7.0,
+    "x2": 3.8,
+    "y2": 7.0,
+    "width": 0.6,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 8.3,
+    "x2": 4.199999999999999,
+    "y2": 8.3,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 9.3,
+    "x2": 4.199999999999999,
+    "y2": 9.3,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 10.3,
+    "x2": 4.199999999999999,
+    "y2": 10.3,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 11.3,
+    "x2": 4.199999999999999,
+    "y2": 11.3,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 12.3,
+    "x2": 4.199999999999999,
+    "y2": 12.3,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 4.5,
+    "y1": 11.600000000000001,
+    "x2": 4.5,
+    "y2": 12.0,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 4.5,
+    "y1": 9.600000000000001,
+    "x2": 4.5,
+    "y2": 9.999999999999998,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 3.5,
+    "y": 12.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "470R",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 3.5,
+    "y": 10.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "680R",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 3.5,
+    "y": 8.8,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "680R",
+    "font": "DejaVuSans",
+    "size": 0.25,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": 2.700000000000001,
+    "y": 3.0,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "680R",
+    "font": "DejaVuSans",
+    "size": 0.5,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": 2.700000000000002,
+    "y": 6.199999999999999,
+    "angle": 270.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "text",
+    "x": 2.7,
+    "y": 6.199999999999999,
+    "angle": 270.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "680R",
+    "font": "DejaVuSans",
+    "size": 0.5,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 4.5,
+    "y1": 7.5,
+    "x2": 4.5,
+    "y2": 7.999999999999998,
+    "width": 0.4,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 3.8,
+    "y1": 3.8000000000000007,
+    "x2": 3.200000000000002,
+    "y2": 3.8000000000000007,
+    "width": 0.6,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 2.7,
+    "y1": 4.9,
+    "x2": 2.700000000000002,
+    "y2": 4.300000000000001,
+    "width": 0.6,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 1.3000000000000007,
+    "y1": 3.8000000000000007,
+    "x2": 2.2,
+    "y2": 3.8000000000000007,
+    "width": 0.6,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "text",
+    "x": -8.881784197001252e-16,
+    "y": 14.0,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "1uF",
+    "font": "DejaVuSans",
+    "size": 0.5,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "via",
+    "x": -1.6,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -3.2,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.800000000000001,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.4,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 3.2,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 4.800000000000001,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.4,
+    "y": 16.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 1.5999999999999996,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 0.0,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -1.5999999999999996,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -3.2,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.800000000000001,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.4,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "polygon",
+    "layer": "copper1-top",
+    "x": [
+     6.0,
+     7.899999999999999,
+     7.899999999999999,
+     7.5,
+     6.0
+    ],
+    "y": [
+     10.0,
+     10.0,
+     12.0,
+     12.400000000000002,
+     12.4
+    ],
+    "closed": true,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": 6.4,
+    "y": 12.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 5.8999999999999995,
+    "y": 14.0,
+    "width": 11.200000000000001,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 0.0,
+    "y": 17.75,
+    "width": 23.0,
+    "height": 1.5,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -4.75,
+    "y": 9.7,
+    "width": 13.5,
+    "height": 2.5999999999999996,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 8.75,
+    "y": 9.7,
+    "width": 5.5,
+    "height": 2.5999999999999988,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": 1.5999999999999996,
+    "y": 10.4,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 1.5999999999999996,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.4,
+    "y": 10.4,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.4,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -8.75,
+    "y": 3.2,
+    "width": 5.499999999999999,
+    "height": 2.4000000000000004,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": -4.440892098500626e-16,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -1.6,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -3.1999999999999997,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.800000000000001,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.4,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.4,
+    "y": 4.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.4,
+    "y": 2.4000000000000004,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 9.55,
+    "y": 6.15,
+    "width": 3.9,
+    "height": 9.7,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 7.2,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 5.6000000000000005,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 4.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 2.4000000000000004,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "chip_generic_1210",
+    "x": -7.7,
+    "y": 6.4,
+    "angle": 180.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "text",
+    "x": -7.7,
+    "y": 6.4,
+    "angle": 0.0,
+    "mirror": false,
+    "layer": "mech3-top",
+    "text": "10uF",
+    "font": "DejaVuSans",
+    "size": 1.0,
+    "halign": "center",
+    "valign": "center",
+    "spacing": 0.0,
+    "steps": 8,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": -3.7,
+    "y1": 0.0,
+    "x2": -3.7,
+    "y2": 2.3000000000000003,
+    "width": 2.0,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 7.75,
+    "y": 1.9000000000000001,
+    "width": 7.5,
+    "height": 1.1999999999999997,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": 6.300000000000001,
+    "y": 1.9000000000000001,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 4.6000000000000005,
+    "y": 1.9000000000000001,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -9.550000000000002,
+    "y": 6.499999999999999,
+    "width": 3.900000000000004,
+    "height": 8.999999999999998,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": -8.0,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -9.600000000000001,
+    "y": 8.8,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -11.0,
+    "y": 8.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -11.0,
+    "y": 6.4,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -11.0,
+    "y": 4.800000000000001,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -4.85,
+    "y": 6.4,
+    "width": 4.299999999999999,
+    "height": 2.8000000000000007,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "line",
+    "layer": "copper1-top",
+    "x1": 2.7,
+    "y1": 1.7000000000000002,
+    "x2": 2.7,
+    "y2": 0.0,
+    "width": 1.0,
+    "hole": false,
+    "order": 0
+   },
+   {
+    "type": "via",
+    "x": 10.5,
+    "y": 4.800000000000001,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 10.5,
+    "y": 8.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -2.4000000000000004,
+    "y": 17.5,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 2.4000000000000004,
+    "y": 17.5,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -5.6000000000000005,
+    "y": 10.4,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -2.4000000000000004,
+    "y": 10.4,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   }
+  ],
+  "view_x": 1.209883050904153,
+  "view_y": 7.854863099531989,
+  "view_scale": 50.11872336272736,
+  "grid_step_x": 0.1,
+  "grid_step_y": 0.1
+ },
+ {
+  "name": "filter_lowpass_half",
+  "shapes": [
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -2.220446049250313e-16,
+    "y": 0.0,
+    "width": 4.600000000000001,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "connector_generic_sma_edge",
+    "x": -18.0,
+    "y": 0.0,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": false,
+    "w1": 2.0,
+    "h1": 4.0,
+    "w2": 2.0,
+    "h2": 4.0,
+    "w3": 1.35,
+    "h3": 2.75,
+    "s1": 3.0,
+    "hole": false,
+    "hole_w": 9.0,
+    "hole_h": 5.0,
+    "edge_space": 0.5
+   },
+   {
+    "type": "connector_generic_sma_edge",
+    "x": 18.0,
+    "y": 0.0,
+    "angle": 270.0,
+    "flip": false,
+    "mirror": false,
+    "w1": 2.0,
+    "h1": 4.0,
+    "w2": 2.0,
+    "h2": 4.0,
+    "w3": 1.35,
+    "h3": 2.75,
+    "s1": 3.0,
+    "hole": false,
+    "hole_w": 9.0,
+    "hole_h": 5.0,
+    "edge_space": 0.5
+   },
+   {
+    "type": "via",
+    "x": 0.0,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -1.7,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -3.5,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "chip_generic_0805",
+    "x": -2.6,
+    "y": 0.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0805",
+    "x": 2.6,
+    "y": 0.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "via",
+    "x": 3.5,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 1.7,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 5.200000000000001,
+    "y": 0.0,
+    "width": 4.599999999999998,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -5.200000000000001,
+    "y": 0.0,
+    "width": 4.599999999999998,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "chip_generic_0805",
+    "x": -7.8,
+    "y": 0.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0805",
+    "x": 7.8,
+    "y": 0.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": -12.8,
+    "y": 0.0,
+    "width": 9.4,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 12.8,
+    "y": 0.0,
+    "width": 9.4,
+    "height": 2.0,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": -6.9,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -8.700000000000001,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.9,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.700000000000001,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 10.4,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -5.2,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -6.900000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -8.700000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -1.7,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -3.5,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 5.2,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 3.5,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 1.7,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.700000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.900000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 11.200000000000001,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 9.600000000000001,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 12.100000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 12.100000000000001,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": 0.0,
+    "y": -1.2999999999999998,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": -5.2,
+    "y": 1.3000000000000007,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": 5.2,
+    "y": 1.3000000000000007,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": -10.4,
+    "y": -1.2999999999999998,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "chip_generic_0603",
+    "x": 10.4,
+    "y": -1.2999999999999998,
+    "angle": 90.0,
+    "flip": false,
+    "mirror": true,
+    "mask": 0.1,
+    "silk": true
+   },
+   {
+    "type": "via",
+    "x": 0.8000000000000007,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -0.7999999999999989,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -9.6,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -11.2,
+    "y": -3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.3999999999999995,
+    "y": 3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -5.999999999999999,
+    "y": 3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 6.000000000000001,
+    "y": 3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 4.400000000000001,
+    "y": 3.3000000000000007,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -10.4,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -12.100000000000001,
+    "y": -2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -12.100000000000001,
+    "y": 2.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "polygon",
+    "layer": "copper1-top",
+    "x": [
+     -13.9,
+     -13.9,
+     13.9,
+     13.9,
+     13.5,
+     -13.5
+    ],
+    "y": [
+     2.0,
+     4.0,
+     4.0,
+     2.0,
+     1.5999999999999979,
+     1.6000000000000014
+    ],
+    "closed": true,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 0.0,
+    "y": 4.25,
+    "width": 35.0,
+    "height": 2.5,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "via",
+    "x": -16.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -8.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 0.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 16.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -16.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -8.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 0.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 8.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 16.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -12.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 4.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 12.0,
+    "y": 5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -12.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": -4.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 4.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "via",
+    "x": 12.0,
+    "y": -5.0,
+    "angle": 0.0,
+    "flip": false,
+    "mirror": false,
+    "drill_diameter": 0.4,
+    "outer_diameter": 0.8,
+    "inner_diameter": 0.8,
+    "hole_diameter": 1.2,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ]
+   },
+   {
+    "type": "polygon",
+    "layer": "copper1-top",
+    "x": [
+     13.9,
+     13.9,
+     -13.899999999999999,
+     -13.899999999999999,
+     -13.5,
+     13.5
+    ],
+    "y": [
+     -2.0000000000000018,
+     -4.000000000000002,
+     -3.999999999999999,
+     -1.9999999999999991,
+     -1.5999999999999979,
+     -1.6000000000000032
+    ],
+    "closed": true,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   },
+   {
+    "type": "rectangle",
+    "layer": "copper1-top",
+    "x": 0.0,
+    "y": -4.25,
+    "width": 35.0,
+    "height": 2.5,
+    "angle": 0.0,
+    "outline": 0.0,
+    "hole": false,
+    "order": 0,
+    "pad": false
+   }
+  ],
+  "view_x": 0.9929698345904241,
+  "view_y": 0.34500513063458477,
+  "view_scale": 31.6227766016838,
+  "grid_step_x": 0.1,
+  "grid_step_y": 0.1
+ }
+]

@@ -1,0 +1,4010 @@
+[
+ {
+  "grid_step": 1.0,
+  "view_y": -1.0231910565584275,
+  "name": "mb_testboard",
+  "view_x": 4.648886672321853,
+  "view_scale": 10.000000000000169,
+  "shapes": [
+   {
+    "x": 0.0,
+    "cols": 20,
+    "paste": -0.05,
+    "flip": false,
+    "mask": 0.1,
+    "angle": 0.0,
+    "mirror": false,
+    "type": "connector_samtec_erf8",
+    "y": 12.0
+   },
+   {
+    "x": 0.0,
+    "cols": 20,
+    "paste": -0.05,
+    "flip": false,
+    "mask": 0.1,
+    "angle": 0.0,
+    "mirror": false,
+    "type": "connector_samtec_erf8",
+    "y": -12.0
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -7.5,
+     -4.800000000000001,
+     -4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     6.0,
+     6.0,
+     8.5
+    ]
+   },
+   {
+    "x": -9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": 6.0
+   },
+   {
+    "x": -9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": 2.0
+   },
+   {
+    "x": -9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": -2.0
+   },
+   {
+    "x": -9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": -6.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -4.800000000000001,
+     -4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.5,
+     9.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -1.6,
+     -1.6
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.5,
+     9.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     1.6,
+     1.6
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.5,
+     9.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     4.800000000000001,
+     4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.5,
+     9.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -7.5,
+     -1.6,
+     -1.6
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     2.0,
+     2.0,
+     8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     7.5,
+     4.800000000000001,
+     4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     6.0,
+     6.0,
+     8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     7.5,
+     1.6,
+     1.6
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     2.0,
+     2.0,
+     8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     7.5,
+     4.800000000000001,
+     4.799999999999999
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -6.000000000000002,
+     -6.0,
+     -8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     7.5,
+     1.5999999999999996,
+     1.5999999999999992
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -2.000000000000001,
+     -2.0,
+     -8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -7.5,
+     -4.800000000000001,
+     -4.8000000000000025
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -5.999999999999998,
+     -6.0,
+     -8.5
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -7.5,
+     -1.6000000000000005,
+     -1.600000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -1.9999999999999991,
+     -2.0,
+     -8.5
+    ]
+   },
+   {
+    "x": 9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": 6.0
+   },
+   {
+    "x": 9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": 2.0
+   },
+   {
+    "x": 9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": -2.0
+   },
+   {
+    "x": 9.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_gtxcap",
+    "y": -6.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     4.800000000000001,
+     4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -8.5,
+     -9.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     1.5999999999999996,
+     1.5999999999999996
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -8.5,
+     -9.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -1.5999999999999996,
+     -1.5999999999999996
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -8.5,
+     -9.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -4.800000000000001,
+     -4.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     [
+      0.2,
+      0.2,
+      0.3,
+      0.3
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -8.5,
+     -9.200000000000001
+    ]
+   },
+   {
+    "x": -17.0,
+    "flip": false,
+    "angle": 0.0,
+    "mirror": false,
+    "type": "mb_testboard_screw",
+    "y": 17.0
+   },
+   {
+    "x": -17.0,
+    "flip": false,
+    "angle": 0.0,
+    "mirror": false,
+    "type": "mb_testboard_screw",
+    "y": -17.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -10.5,
+     -28.0,
+     -26.0,
+     -33.0
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     2.0,
+     2.0,
+     12.0,
+     12.0
+    ]
+   },
+   {
+    "x": -45.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": 12.0
+   },
+   {
+    "x": -45.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": 36.0
+   },
+   {
+    "x": -45.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": -36.0
+   },
+   {
+    "x": -45.0,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": -12.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -25.0,
+     -25.0,
+     -33.0
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     25.0,
+     36.0,
+     36.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -25.0,
+     -25.0,
+     -10.5
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     25.0,
+     6.0,
+     6.0
+    ]
+   },
+   {
+    "outline": 0.1,
+    "x": 0.0,
+    "order": 0,
+    "pad": false,
+    "width": 90.0,
+    "hole": false,
+    "angle": 0.0,
+    "height": 100.0,
+    "layer": "board-outline",
+    "type": "rectangle",
+    "y": 0.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -25.000000000000004,
+     -25.000000000000007,
+     -33.00000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -25.0,
+     -36.0,
+     -36.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -25.000000000000004,
+     -25.0,
+     -10.500000000000002
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -25.0,
+     -5.999999999999999,
+     -6.0
+    ]
+   },
+   {
+    "x": 17.0,
+    "flip": false,
+    "angle": 180.0,
+    "mirror": false,
+    "type": "mb_testboard_screw",
+    "y": -17.0
+   },
+   {
+    "x": 17.0,
+    "flip": false,
+    "angle": 180.0,
+    "mirror": false,
+    "type": "mb_testboard_screw",
+    "y": 17.0
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     25.0,
+     24.999999999999993,
+     33.0
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -25.0,
+     -36.0,
+     -36.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     25.0,
+     25.0,
+     10.5
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -25.0,
+     -6.0000000000000036,
+     -6.000000000000002
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     25.000000000000004,
+     25.000000000000014,
+     33.00000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     25.0,
+     36.0,
+     36.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     25.000000000000004,
+     25.0,
+     10.500000000000002
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     25.0,
+     5.999999999999996,
+     5.999999999999998
+    ]
+   },
+   {
+    "x": 45.0,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": -12.000000000000007
+   },
+   {
+    "x": 45.0,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": -36.0
+   },
+   {
+    "x": 45.0,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": 36.0
+   },
+   {
+    "x": 45.0,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "mb_testboard_sma",
+    "y": 11.999999999999993
+   },
+   {
+    "outline": 0.0,
+    "x": 0.0,
+    "order": -1,
+    "pad": false,
+    "width": 89.0,
+    "hole": false,
+    "angle": 0.0,
+    "height": 99.0,
+    "layer": "copper1-bot",
+    "type": "rectangle",
+    "y": 0.0
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -7.6000000000000005,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -7.6000000000000005,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.800000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.800000000000001,
+    "y2": -15.3
+   },
+   {
+    "outline": 0.0,
+    "x": -7.2,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.000000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.000000000000001,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -5.200000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -5.200000000000001,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -4.4,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -4.4,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -3.6000000000000005,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -3.6000000000000005,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -2.8000000000000007,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.8000000000000007,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -2.000000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.000000000000001,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -1.2000000000000002,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -1.2000000000000002,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -0.4000000000000006,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -0.4000000000000006,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 0.3999999999999999,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 0.3999999999999999,
+    "y2": -15.3
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 1.1999999999999997,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 1.1999999999999997,
+    "y2": -15.3
+   },
+   {
+    "x": 10.16,
+    "rows": 1,
+    "cols": 8,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": -35.56
+   },
+   {
+    "x": -10.16,
+    "rows": 1,
+    "cols": 8,
+    "flip": false,
+    "angle": 270.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": -35.56
+   },
+   {
+    "outline": 0.2,
+    "x": 0.0,
+    "order": 0,
+    "pad": false,
+    "width": 40.0,
+    "hole": false,
+    "angle": 0.0,
+    "height": 40.0,
+    "layer": "silk-top",
+    "type": "rectangle",
+    "y": 0.0
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -7.6000000000000005,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -7.6000000000000005,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.800000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.800000000000001,
+    "y2": -10.8
+   },
+   {
+    "outline": 0.0,
+    "x": -4.440892098500626e-16,
+    "order": 0,
+    "pad": false,
+    "width": 15.700000000000003,
+    "hole": false,
+    "angle": 0.0,
+    "height": 1.199999999999996,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -11.400000000000002
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.0,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -3.6,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -3.6,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -2.8000000000000003,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.8000000000000003,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -0.3999999999999999,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -0.3999999999999999,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 0.3999999999999999,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 0.3999999999999999,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 2.8000000000000003,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 2.8000000000000003,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 3.6,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 3.6,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 6.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 6.0,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 6.800000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 6.800000000000001,
+    "y2": -10.8
+   },
+   {
+    "y1": -10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 7.6000000000000005,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 7.6000000000000005,
+    "y2": -10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 7.6,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 7.6,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 6.8,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 6.8,
+    "y2": 10.8
+   },
+   {
+    "outline": 0.0,
+    "x": 0.0,
+    "order": 0,
+    "pad": false,
+    "width": 15.700000000000003,
+    "hole": false,
+    "angle": 180.0,
+    "height": 1.199999999999996,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": 11.400000000000002
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 5.999999999999999,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 5.999999999999999,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 3.5999999999999996,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 3.5999999999999996,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 2.8000000000000007,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 2.8000000000000007,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 0.40000000000000036,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 0.40000000000000036,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.3,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -0.40000000000000036,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -0.40000000000000036,
+    "y2": 10.8
+   },
+   {
+    "y1": 10.300000000000002,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -2.8000000000000007,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.8000000000000007,
+    "y2": 10.800000000000002
+   },
+   {
+    "y1": 10.300000000000002,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -3.5999999999999996,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -3.5999999999999996,
+    "y2": 10.800000000000002
+   },
+   {
+    "y1": 10.300000000000002,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.0,
+    "y2": 10.800000000000002
+   },
+   {
+    "y1": 10.300000000000002,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -6.800000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -6.800000000000001,
+    "y2": 10.800000000000002
+   },
+   {
+    "y1": 10.300000000000002,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": -7.600000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -7.600000000000001,
+    "y2": 10.800000000000002
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.200000000000001,
+     -7.62,
+     -7.2,
+     -7.2
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -26.740000000000002,
+     -25.4,
+     -23.6,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -6.35,
+     -5.6000000000000005,
+     -5.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -29.21,
+     -27.94,
+     -25.200000000000003,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -5.08,
+     -4.0,
+     -4.0
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -31.75,
+     -30.48,
+     -26.8,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -3.81,
+     -2.4000000000000004,
+     -2.4000000000000004
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -34.29,
+     -33.02,
+     -28.400000000000002,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -2.54,
+     -0.8,
+     -0.8
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -36.83,
+     -35.56,
+     -30.0,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -2.54,
+     0.8,
+     0.8
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -36.83,
+     -33.2,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     8.89,
+     7.6000000000000005,
+     7.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -26.669999999999998,
+     -25.4,
+     -23.6,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     8.255,
+     6.800000000000001,
+     6.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -29.21,
+     -27.305,
+     -24.8,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     7.62,
+     6.0,
+     6.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -31.75,
+     -29.21,
+     -26.0,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     6.985,
+     5.2,
+     5.2
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -34.29,
+     -31.115,
+     -27.200000000000003,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     6.35,
+     4.4,
+     4.4
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -36.83,
+     -33.019999999999996,
+     -28.400000000000002,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     5.715,
+     3.6,
+     3.6
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -39.37,
+     -34.925,
+     -29.6,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     5.08,
+     2.8000000000000003,
+     2.8000000000000003
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -41.91,
+     -36.83,
+     -30.8,
+     -21.200000000000003
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     10.16,
+     4.445,
+     2.0,
+     2.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.8,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -44.45,
+     -38.735,
+     -32.0,
+     -21.200000000000003
+    ]
+   },
+   {
+    "outline": 0.0,
+    "x": 10.16,
+    "order": -1,
+    "pad": false,
+    "width": 2.54,
+    "hole": true,
+    "angle": 0.0,
+    "height": 20.32,
+    "layer": "copper1-bot",
+    "type": "rectangle",
+    "y": -35.56
+   },
+   {
+    "outline": 0.0,
+    "x": -10.16,
+    "order": -1,
+    "pad": false,
+    "width": 2.54,
+    "hole": true,
+    "angle": 0.0,
+    "height": 20.32,
+    "layer": "copper1-bot",
+    "type": "rectangle",
+    "y": -35.56
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 1.9999999999999996,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 2.0,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 2.8,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 2.8000000000000003,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 3.5999999999999996,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 3.6,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 4.4,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 4.4,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 5.2,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 5.2,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 6.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 6.0,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 6.800000000000001,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 6.800000000000001,
+    "y2": -21.200000000000003
+   },
+   {
+    "y1": -14.8,
+    "order": 0,
+    "width": 0.5,
+    "hole": false,
+    "x1": 7.6,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 7.6000000000000005,
+    "y2": -21.200000000000003
+   },
+   {
+    "outline": 0.0,
+    "x": -5.6000000000000005,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "outline": 0.0,
+    "x": -4.0,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "outline": 0.0,
+    "x": -2.4000000000000004,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "outline": 0.0,
+    "x": -0.8,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "outline": 0.0,
+    "x": 0.8,
+    "order": 0,
+    "pad": false,
+    "width": 1.3,
+    "hole": false,
+    "angle": 0.0,
+    "height": 5.900000000000004,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": -18.25
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -12.7,
+     -12.7
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -31.75,
+     -31.75,
+     -34.29
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -12.7,
+     -12.699999999999996,
+     -10.159999999999997
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -39.370000000000005,
+     -41.910000000000004,
+     -41.910000000000004
+    ]
+   },
+   {
+    "y1": -39.37,
+    "order": 0,
+    "width": 1.3,
+    "hole": false,
+    "x1": -12.7,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -12.7,
+    "y2": -34.29
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -44.45,
+    "x": -19.05,
+    "text": "GND",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -41.910000000000004,
+    "x": -19.05,
+    "text": "VDD3",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -26.67,
+    "x": -19.05,
+    "text": "VDD1",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -29.21,
+    "x": -19.05,
+    "text": "VDD2",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -31.75,
+    "x": -19.05,
+    "text": "VDD3",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -34.29,
+    "x": -19.05,
+    "text": "VDD4",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -36.83,
+    "x": -19.05,
+    "text": "VDD5",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -39.37,
+    "x": -19.05,
+    "text": "GND",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -24.13,
+     -12.065,
+     -7.6000000000000005,
+     -7.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "x": 0.0,
+    "rows": 1,
+    "cols": 20,
+    "flip": false,
+    "angle": 0.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": 43.18
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -21.59,
+     -10.795,
+     -6.800000000000001,
+     -6.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -19.05,
+     -9.525,
+     -6.0,
+     -6.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -16.51,
+     -8.255,
+     -5.2,
+     -5.2
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -13.97,
+     -6.985,
+     -4.4,
+     -4.4
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -11.43,
+     -5.715,
+     -3.6000000000000005,
+     -3.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -8.89,
+     -4.445,
+     -2.8,
+     -2.8
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -6.35,
+     -3.175,
+     -2.0,
+     -2.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -3.81,
+     -1.905,
+     -1.2000000000000002,
+     -1.2000000000000002
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -1.27,
+     -0.635,
+     -0.40000000000000036,
+     -0.40000000000000036
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     1.27,
+     0.635,
+     0.40000000000000036,
+     0.40000000000000036
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     3.81,
+     1.905,
+     1.2000000000000002,
+     1.2000000000000002
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     6.35,
+     3.175,
+     2.0,
+     2.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     8.89,
+     4.445,
+     2.8,
+     2.8
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     11.43,
+     5.715,
+     3.6000000000000005,
+     3.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     13.97,
+     6.985,
+     4.4,
+     4.4
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     16.51,
+     8.255,
+     5.2,
+     5.2
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     19.05,
+     9.525,
+     6.0,
+     6.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     21.59,
+     10.795,
+     6.800000000000001,
+     6.800000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     24.13,
+     12.065,
+     7.6000000000000005,
+     7.6000000000000005
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      1.2,
+      0.7,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     43.18,
+     29.21,
+     24.0,
+     14.8
+    ]
+   },
+   {
+    "order": -1,
+    "angle": 0.0,
+    "height": 2.539999999999999,
+    "outline": 0.0,
+    "x": 0.0,
+    "width": 50.8,
+    "hole": true,
+    "pad": false,
+    "y": 43.18000000000001,
+    "layer": "copper1-bot",
+    "type": "rectangle"
+   },
+   {
+    "y1": 17.0,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": -17.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -13.0,
+    "y2": 12.0
+   },
+   {
+    "y1": 12.0,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": 13.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -13.0,
+    "y2": 12.0
+   },
+   {
+    "y1": 17.0,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": 17.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 13.0,
+    "y2": 12.0
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -13.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 12.0
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 13.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 12.0
+   },
+   {
+    "y1": -17.0,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": 17.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 13.000000000000004,
+    "y2": -12.0
+   },
+   {
+    "y1": -11.999999999999996,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": -12.999999999999996,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": 13.000000000000004,
+    "y2": -12.0
+   },
+   {
+    "y1": -16.999999999999996,
+    "order": 0,
+    "width": 1.0,
+    "hole": false,
+    "x1": -17.0,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -12.999999999999996,
+    "y2": -11.999999999999996
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 13.000000000000004,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 0.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": -12.0
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -12.999999999999996,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 0.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": -11.999999999999996
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A7",
+    "mirror": false,
+    "y": -41.910000000000004,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A8",
+    "mirror": false,
+    "y": -44.45,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A1",
+    "mirror": false,
+    "y": -26.67,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A2",
+    "mirror": false,
+    "y": -29.21,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A3",
+    "mirror": false,
+    "y": -31.75,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A4",
+    "mirror": false,
+    "y": -34.29,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A5",
+    "mirror": false,
+    "y": -36.83,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "A6",
+    "mirror": false,
+    "y": -39.37,
+    "x": 12.065,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "x": -7.62,
+    "rows": 1,
+    "cols": 2,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": -43.18
+   },
+   {
+    "x": -5.08,
+    "rows": 1,
+    "cols": 2,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": -43.18
+   },
+   {
+    "x": -2.54,
+    "rows": 1,
+    "cols": 2,
+    "flip": false,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "connector_generic_pin_header_vertical",
+    "y": -43.18
+   },
+   {
+    "y1": -41.910000000000004,
+    "order": 0,
+    "width": 1.3,
+    "hole": false,
+    "x1": -10.16,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.54,
+    "y2": -41.910000000000004
+   },
+   {
+    "y1": -44.45,
+    "order": 0,
+    "width": 1.3,
+    "hole": false,
+    "x1": -10.16,
+    "layer": "copper1-top",
+    "type": "line",
+    "x2": -2.54,
+    "y2": -44.45
+   },
+   {
+    "outline": 0.0,
+    "x": -6.35,
+    "order": -1,
+    "pad": false,
+    "width": 10.16,
+    "hole": true,
+    "angle": 0.0,
+    "height": 5.079999999999998,
+    "layer": "copper1-bot",
+    "type": "rectangle",
+    "y": -43.18
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -10.16,
+     -5.08,
+     -2.54
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -39.37,
+     -39.37,
+     -36.83
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     0.0,
+     0.0,
+     -2.54
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -41.910000000000004,
+     -44.45,
+     -44.45
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     0.0,
+     0.0,
+     -2.54
+    ],
+    "centerline": 0,
+    "width": [
+     1.3
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -41.910000000000004,
+     -39.37,
+     -36.83
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     -10.5,
+     -28.0,
+     -26.0,
+     -33.0
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -2.000000000000002,
+     -2.000000000000001,
+     -12.000000000000002,
+     -12.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     10.500000000000005,
+     28.000000000000004,
+     26.000000000000004,
+     33.0
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -1.9999999999999991,
+     -2.0,
+     -12.0,
+     -12.0
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     10.500000000000005,
+     28.000000000000007,
+     26.000000000000007,
+     33.00000000000001
+    ],
+    "centerline": 0,
+    "width": [
+     0.5,
+     0.5
+    ],
+    "space": [
+     0.2
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     2.000000000000001,
+     1.9999999999999996,
+     12.0,
+     12.0
+    ]
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B1",
+    "mirror": false,
+    "y": 45.085,
+    "x": -24.13,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B20",
+    "mirror": false,
+    "y": 45.085,
+    "x": 24.13,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B2",
+    "mirror": false,
+    "y": 45.085,
+    "x": -21.59,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B3",
+    "mirror": false,
+    "y": 45.085,
+    "x": -19.05,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B4",
+    "mirror": false,
+    "y": 45.085,
+    "x": -16.51,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B5",
+    "mirror": false,
+    "y": 45.085,
+    "x": -13.97,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B6",
+    "mirror": false,
+    "y": 45.085,
+    "x": -11.43,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B7",
+    "mirror": false,
+    "y": 45.085,
+    "x": -8.89,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B8",
+    "mirror": false,
+    "y": 45.085,
+    "x": -6.35,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B9",
+    "mirror": false,
+    "y": 45.085,
+    "x": -3.81,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B10",
+    "mirror": false,
+    "y": 45.085,
+    "x": -1.27,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B11",
+    "mirror": false,
+    "y": 45.085,
+    "x": 1.27,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B12",
+    "mirror": false,
+    "y": 45.085,
+    "x": 3.81,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B13",
+    "mirror": false,
+    "y": 45.085,
+    "x": 6.35,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B14",
+    "mirror": false,
+    "y": 45.085,
+    "x": 8.89,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B15",
+    "mirror": false,
+    "y": 45.085,
+    "x": 11.43,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B16",
+    "mirror": false,
+    "y": 45.085,
+    "x": 13.97,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B17",
+    "mirror": false,
+    "y": 45.085,
+    "x": 16.51,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B18",
+    "mirror": false,
+    "y": 45.085,
+    "x": 19.05,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "font": "Salsa",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "text": "B19",
+    "mirror": false,
+    "y": 45.085,
+    "x": 21.59,
+    "valign": "center",
+    "halign": "left",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "layer": "copper1-top",
+    "type": "text"
+   },
+   {
+    "outline": 0.1,
+    "x": 0.0,
+    "order": 0,
+    "pad": false,
+    "width": 90.0,
+    "hole": false,
+    "angle": 0.0,
+    "height": 100.0,
+    "layer": "copper1-top",
+    "type": "rectangle",
+    "y": 0.0
+   },
+   {
+    "outline": 0.1,
+    "x": 0.0,
+    "order": 0,
+    "pad": false,
+    "width": 90.0,
+    "hole": false,
+    "angle": 0.0,
+    "height": 100.0,
+    "layer": "copper1-bot",
+    "type": "rectangle",
+    "y": 0.0
+   },
+   {
+    "layer": "copper1-top",
+    "order": 0,
+    "steps": 8,
+    "size": 2.0,
+    "valign": "center",
+    "mirror": false,
+    "y": -48.0,
+    "x": 0.0,
+    "text": "MB ADC1 breakout board v1",
+    "halign": "center",
+    "hole": false,
+    "angle": 0.0,
+    "spacing": 0.0,
+    "font": "Salsa",
+    "type": "text"
+   }
+  ]
+ },
+ {
+  "grid_step": 0.1,
+  "view_y": 0.6840434787254486,
+  "name": "mb_testboard_gtxcap",
+  "view_x": 1.1375835775217686,
+  "view_scale": 100.00000000000006,
+  "shapes": [
+   {
+    "x": -0.5,
+    "flip": false,
+    "mask": 0.1,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "chip_generic_0402",
+    "y": 0.0
+   },
+   {
+    "x": 0.5,
+    "flip": false,
+    "mask": 0.1,
+    "angle": 90.0,
+    "mirror": false,
+    "type": "chip_generic_0402",
+    "y": 0.0
+   },
+   {
+    "layer": "mech3-top",
+    "order": 0,
+    "steps": 8,
+    "size": 0.3,
+    "valign": "center",
+    "mirror": false,
+    "y": 0.0,
+    "x": -0.5,
+    "text": "1u",
+    "halign": "center",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "font": "DejaVuSans",
+    "type": "text"
+   },
+   {
+    "layer": "mech3-top",
+    "order": 0,
+    "steps": 8,
+    "size": 0.3,
+    "valign": "center",
+    "mirror": false,
+    "y": 0.0,
+    "x": 0.5,
+    "text": "1u",
+    "halign": "center",
+    "hole": false,
+    "angle": 90.0,
+    "spacing": 0.0,
+    "font": "DejaVuSans",
+    "type": "text"
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.6,
+      0.6,
+      0.5,
+      0.5
+     ],
+     [
+      0.6,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [
+     [
+      0.4,
+      0.4,
+      0.2,
+      0.2
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     0.7999999999999983,
+     1.0,
+     1.4999999999999956
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 32,
+    "x": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.6,
+      0.6,
+      0.5,
+      0.5
+     ],
+     [
+      0.6,
+      0.6,
+      0.5,
+      0.5
+     ]
+    ],
+    "space": [
+     [
+      0.4,
+      0.4,
+      0.2,
+      0.2
+     ]
+    ],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     -0.7999999999999983,
+     -1.0,
+     -1.4999999999999956
+    ]
+   }
+  ]
+ },
+ {
+  "grid_step": 0.1,
+  "view_y": 0.4270991628779792,
+  "name": "mb_testboard_screw",
+  "view_x": 1.5667217046799462,
+  "view_scale": 50.11872336272726,
+  "shapes": [
+   {
+    "drill_diameter": 2.7,
+    "inner_diameter": 5.0,
+    "mask": 0.1,
+    "mirror": false,
+    "type": "pad_circ_th",
+    "flip": false,
+    "x": 0.0,
+    "hole_diameter": 5.0,
+    "outer_diameter": 5.0,
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot"
+    ],
+    "y": 0.0,
+    "angle": 0.0
+   }
+  ]
+ },
+ {
+  "grid_step": 0.05,
+  "view_y": 5.683984620619638,
+  "name": "mb_testboard_sma",
+  "view_x": 3.033806749928357,
+  "view_scale": 31.622776601684027,
+  "shapes": [
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     2.5,
+     3.8000000000000003,
+     6.0,
+     6.0
+    ],
+    "centerline": 0,
+    "width": [
+     1.5
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.200000000000001,
+     7.3500000000000005,
+     7.5,
+     4.0
+    ]
+   },
+   {
+    "w2": 1.5,
+    "flip": false,
+    "s1": 3.5,
+    "mirror": true,
+    "w3": 1.35,
+    "edge_space": 0.5,
+    "y": 0.0,
+    "h2": 3.5,
+    "h1": 4.0,
+    "x": -6.0,
+    "hole_h": 5.0,
+    "hole": false,
+    "h3": 2.75,
+    "angle": 180.0,
+    "w1": 3.0,
+    "type": "connector_generic_sma_edge_cde",
+    "hole_w": 11.0
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -2.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 1.4999999999999998
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -2.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 3.4999999999999996
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -10.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 1.5000000000000002
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": -10.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 3.5000000000000004
+   },
+   {
+    "w2": 1.5,
+    "flip": false,
+    "s1": 3.5,
+    "mirror": true,
+    "w3": 1.35,
+    "edge_space": 0.5,
+    "y": 0.0,
+    "h2": 3.5,
+    "h1": 4.0,
+    "x": 6.0,
+    "hole_h": 5.0,
+    "hole": false,
+    "h3": 2.75,
+    "angle": 180.0,
+    "w1": 3.0,
+    "type": "connector_generic_sma_edge_cde",
+    "hole_w": 11.0
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 10.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 1.4999999999999998
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 10.0,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 3.4999999999999996
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 2.000000000000001,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 1.5000000000000002
+   },
+   {
+    "layers_pad": [
+     "copper1-top",
+     "copper1-bot",
+     "copper2-top"
+    ],
+    "outer_diameter": 2.0,
+    "x": 2.000000000000001,
+    "inner_diameter": 2.0,
+    "drill_diameter": 1.0,
+    "flip": false,
+    "angle": 180.0,
+    "hole_diameter": 2.0,
+    "mirror": false,
+    "type": "via",
+    "y": 3.5000000000000004
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     0.35000000000000003,
+     0.35000000000000003,
+     0.65,
+     1.2000000000000002,
+     2.5
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.5,
+      0.5,
+      1.5,
+      1.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     12.0,
+     11.25,
+     10.4,
+     9.05,
+     8.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -0.35000000000000003,
+     -0.35000000000000003,
+     -0.65,
+     -1.2000000000000002,
+     -2.5
+    ],
+    "centerline": 0,
+    "width": [
+     [
+      0.5,
+      0.5,
+      1.5,
+      1.5
+     ]
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     12.0,
+     11.25,
+     10.4,
+     9.05,
+     8.200000000000001
+    ]
+   },
+   {
+    "order": 0,
+    "steps": 16,
+    "x": [
+     -2.5,
+     -3.8000000000000007,
+     -6.0,
+     -6.0
+    ],
+    "centerline": 0,
+    "width": [
+     1.5
+    ],
+    "space": [],
+    "hole": false,
+    "layer": "copper1-top",
+    "type": "path",
+    "y": [
+     8.200000000000001,
+     7.3500000000000005,
+     7.5,
+     4.0
+    ]
+   }
+  ]
+ }
+]
